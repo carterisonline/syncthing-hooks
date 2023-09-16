@@ -40,4 +40,4 @@ setInterval(async () => {
 	}
 
 	lastSeenId = updatedLastSeenId;
-}, 1000);
+}, 10000);
