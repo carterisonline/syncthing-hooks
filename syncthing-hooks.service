@@ -1,0 +1,12 @@
+[Unit]
+Description=Provides hooks for syncthing events
+
+[Service]
+Type=simple
+StandardError=null
+StandardOutput=null
+StandardInput=null
+ExecStart=%h/.local/bin/syncthing-hooks/syncthing-hooks.sh
+
+[Install]
+WantedBy=default.target
